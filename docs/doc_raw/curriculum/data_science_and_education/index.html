@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh" xml:lang="zh"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title> 叶阳永 - 数据科学与教育</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title"><i class="fa-solid fa-leaf" aria-hidden="true"></i> 叶阳永</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html">首页</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../doc_raw/research/index.html">科学研究</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../../doc_raw/curriculum/index.html" aria-current="page">开设课程</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../doc_raw/blog/index.html">个人博客</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html">关于</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">数据科学与教育</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../doc_raw/curriculum/index.html" class="sidebar-item-text sidebar-link">开设课程</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">教育法律实务</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../doc_raw/curriculum/practical_law/index.html" class="sidebar-item-text sidebar-link">课程大纲</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">教育政治学</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../doc_raw/curriculum/politics_of_education/index.html" class="sidebar-item-text sidebar-link">课程大纲</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">数据科学与教育</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../doc_raw/curriculum/data_science_and_education/index.html" class="sidebar-item-text sidebar-link active">课程大纲</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">量化研究论文</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../doc_raw/curriculum/quantitative_writing/index.html" class="sidebar-item-text sidebar-link">课程大纲</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#课程简介" id="toc-课程简介" class="nav-link active" data-scroll-target="#课程简介"><strong>课程简介</strong></a></li>
+  <li><a href="#课程目标" id="toc-课程目标" class="nav-link" data-scroll-target="#课程目标"><strong>课程目标</strong></a></li>
+  <li><a href="#课程内容" id="toc-课程内容" class="nav-link" data-scroll-target="#课程内容"><strong>课程内容</strong></a></li>
+  <li><a href="#授课形式" id="toc-授课形式" class="nav-link" data-scroll-target="#授课形式"><strong>授课形式</strong></a></li>
+  <li><a href="#课程要求" id="toc-课程要求" class="nav-link" data-scroll-target="#课程要求"><strong>课程要求</strong></a></li>
+  <li><a href="#课程材料" id="toc-课程材料" class="nav-link" data-scroll-target="#课程材料"><strong>课程材料</strong></a></li>
+  <li><a href="#设计理念" id="toc-设计理念" class="nav-link" data-scroll-target="#设计理念"><strong>设计理念</strong></a></li>
+  <li><a href="#学习方法" id="toc-学习方法" class="nav-link" data-scroll-target="#学习方法"><strong>学习方法</strong></a></li>
+  <li><a href="#考核方式" id="toc-考核方式" class="nav-link" data-scroll-target="#考核方式"><strong>考核方式</strong></a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">数据科学与教育</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="课程简介" class="level3">
+<h3 class="anchored" data-anchor-id="课程简介"><strong>课程简介</strong></h3>
+<p>数据科学是从数据中获取信息的科学，数据科学与教育试图将数据科学的应用场景放在教育领域，对教育领域中产生的数据进行分析，以期丰富我们对于教育现象的认识，回答教育中待解的问题。教育过程正在不断产生大量数据，如学生成长的数据，教育资源分配的数据，需要充分地利用这些数据，以期更好地去安排教育活动，制定更好的教育政策。本门课程主要是帮助学生掌握数据分析的基本步骤、方法、原理和规范。课程依赖于但不同于传统的概率与统计知识，更侧重于对于数据挖掘技术的训练，课程内容包括数据清理、探索性分析技术（图表制作）和一般性的相关性分析。课程使用的统计分析软件为R。</p>
+</section>
+<section id="课程目标" class="level3">
+<h3 class="anchored" data-anchor-id="课程目标"><strong>课程目标</strong></h3>
+<ol type="1">
+<li>掌握数据的结构、类型与格式等知识；</li>
+<li>掌握原理数据的清理技术(分拆、合并、变量生成、筛选、数据转换等）；</li>
+<li>掌握各类表格的制作(占比表、统计表、交叉表、假设检验表、回归分析表等)；</li>
+<li>掌握各类图形的制作(柱状图、饼状图、直方图、箱图、密度图、拆线图、散点图等）；</li>
+<li>掌握相关性分析（T检验、卡方检验、ANOVA、相关性检验等）的技术；</li>
+<li>掌握多元回归的基本技术；</li>
+<li>掌握使用R语言的基本技术；</li>
+</ol>
+</section>
+<section id="课程内容" class="level3">
+<h3 class="anchored" data-anchor-id="课程内容"><strong>课程内容</strong></h3>
+<ol type="1">
+<li>数据清理，涉及数据导入导出、变量调整与生成、数据分拆、合并与变形等技术；</li>
+<li>表格制作，涉及频数表、统计表和交叉表、相关性分析结果表格的制作与格式的调整；</li>
+<li>图的制作，涉及柱状图、线状图、直方图、密度图、散点图等生成与格式的调整；</li>
+<li>一般的相关性分析技术，涉及T检验、卡方检验、ANOVA和相关系数分析等；</li>
+<li>复杂相关性分析，涉及多元分析和Logistic回归等；</li>
+<li>R语言的使用；</li>
+</ol>
+</section>
+<section id="授课形式" class="level3">
+<h3 class="anchored" data-anchor-id="授课形式"><strong>授课形式</strong></h3>
+<p>课堂以教师展示分析技术，学生实践操作的形式展开。同时，学生需要在课下阅读大量材料和做相关练习。</p>
+</section>
+<section id="课程要求" class="level3">
+<h3 class="anchored" data-anchor-id="课程要求"><strong>课程要求</strong></h3>
+<ol type="1">
+<li>最好具备基础的概率与统计知识，或者在教师指导下自学一些概率与统计的知识，参见以下学习材料；</li>
+<li>使用<strong>R语言</strong>进行数据分析，需要学习一些<strong>R语言的</strong>编程知识；</li>
+<li>课程使用的阅读材料以<strong>英语</strong>为主。</li>
+</ol>
+</section>
+<section id="课程材料" class="level3">
+<h3 class="anchored" data-anchor-id="课程材料"><strong>课程材料</strong></h3>
+<p>数据科学是一门综合性的课程，内容涉及R编程知识、数据科学知识、统计知识等，其中数据可视化是课程的重要内容之一，相关的阅读和自学材料如下，以下阅读材料都open access的，可直接点击链接获取。</p>
+<ul>
+<li><strong>R编程知识</strong></li>
+</ul>
+<p>　　<a href="https://intro2r.com/">An Introduction to R</a>，介绍R编程的基础知识，是R编程语言最基础、最简单的介绍<strong>，重点使用</strong>； 　　 　　</p>
+<p>　　<a href="https://bookdown.org/rdpeng/rprogdatascience/">R Programming for Data Science</a>，是对R programming 比较系统的介绍，涉及R的历史、数据结构、条件式、功能性方程、正则表达式、随机模拟等，是R编程语言相对底层的知识。常规数据分析并不必然需要这些知识，但学习这些知识有以下好处：可以让分析工作更高效，比如一些重复性的工作，如果掌握function的编写，可以有效的减少工作量；数据分析过程中难免会遇到一些bug，理解一些R编程的底层知识，有助于快速找到bug的原因；有助于对一些数据分析结果进行解读。作为一本拓展性质书，<strong>推荐阅读。</strong></p>
+<ul>
+<li><strong>数据科学知识</strong></li>
+</ul>
+<p>　　<a href="https://bookdown.org/rdpeng/artofdatascience/">The Art of Data Science</a>，一本描述数据分析流程与思路的书。正如作者所说，在完整的数据分析流程中，思考(thinking)的内容可能比做(doing)的内容更多，确定、修正研究问题，选择数据，选择分析方法，对结论进行各种可能的检验，对结果取舍和解读，等等。这本书给数据分析流程一个完整、清晰的分析框架。特色之处在于不是介绍数据分析过程中的具体技术操作，而是分享数据分析过程中各种问题的应对与思考。作者通过例证介绍流程与步骤，更多的是使用文字描述数据分析过程的步骤以及每一步所需注意的事项，基本没有使用代码，极少使用公式，思路极为清晰，语言简洁明了，是学习数据分析难得的说明书，<strong>重点使用。</strong> 　　 　　</p>
+<p>　　<a href="http://r4ds.had.co.nz/">R for Data Science</a>，以R语言和tidyverse软件包对象，重点介绍数据分析的各项个体操作技术，<strong>重点使用。</strong></p>
+<p>　　<a href="https://datascienceineducation.com/">Data Science in Education Using R</a>，聚焦于将数据科学的理论与技术应用到教育数据的分析当中，以案例项目为单位进行的内容编排。以教育数据分析的具体场景展开，具体的分析技术穿插在项目分析过程中，<strong>推荐阅读。</strong></p>
+<ul>
+<li><strong>数据可视化</strong></li>
+</ul>
+<p>　　<a href="https://r-graphics.org/index.htm">R Graphics Cookbook, 2nd edition</a>，介绍各类图形的具体操作，附带代码，<strong>重点使用；</strong> 　　 　</p>
+<p>　　<a href="https://clauswilke.com/dataviz/">Fundamentals of Data Visualization</a>，关于图形选择与设计的书籍，以美学和信息有效传播的视角展开，提供大量精美图形示例，不包括代码，<strong>推荐阅读；</strong></p>
+<ul>
+<li><strong>数理统计知识</strong></li>
+</ul>
+<p>　　<a href="https://bookdown.org/ripberjt/qrmbook/">Quantitative Research Methods for Political Science, Public Policy and Public Administration: With Applications in R</a>，对一元回归、多元回归有系统的介绍，最为重要的是使用R语言分解、演示统计知识，易于理解，<strong>重点使用；</strong> 　　 　　</p>
+<p>　　<a href="https://seeing-theory.brown.edu/index.html">Seeing-Theory</a>，可互动、可视化地呈现统计学知识，有助于理解概率统计的复杂概念，内容不多，可快速浏览，<strong>推荐阅读；</strong> 　　 　　</p>
+<p>　　<a href="https://openintro-ims.netlify.app/">Introduction to Modern Statistics</a>，作为一本统计学的入门书箱，本书的优势在于：通过个案数据分析，而不是抽象的公式推导，介绍统计推断的基本知识；使用大量的数据图和示意图，有助于理解抽象的概念；除传统的数理统计方法，还介绍最新的randomization 和bootstrap统计方法。附带代码和基于网页的代码运行环境，易于操作练习，<strong>推荐阅读。</strong> 　　 　　</p>
+<p>　　<a href="https://lakens.github.io/statistical_inferences/index.html">Improving Your Statistical Inferences</a>，对统计推断过程中的误读、误用有清晰透彻的介绍，<strong>推荐阅读。</strong></p>
+</section>
+<section id="设计理念" class="level3">
+<h3 class="anchored" data-anchor-id="设计理念"><strong>设计理念</strong></h3>
+<ol type="1">
+<li>开放免费学习，使用开源的软件和和开放的学习材料，本课程使用R语言及其packages是开源的，一律使用open access的学习材料，包括相关书籍和课程；</li>
+<li>翻转课堂设计，以学生为中心，强调学生的练习与自学，作为一门技术性课程，课堂演示是远远不够的，强调课下练习；数据分析技术在不断更新，新packages在不断产生，需不断学习，才能掌握最新最先进的分析技术；</li>
+<li>坚持操作导向，除了理解概率与统计的理论知识之外，本课程更多强调在技术上如何实现；当然也会提供相关原理和思路方面的阅读材料，供学生课下学习；</li>
+<li>本课程教学策略是：do-see-understand-apply。学生先完成数据分析的实际操作，后通过对结果的观察与理解，进而明白编程技术和统计分析方法的原理，然后将相关的编程技术和分析方法运用到新的数据分析场景；</li>
+</ol>
+</section>
+<section id="学习方法" class="level3">
+<h3 class="anchored" data-anchor-id="学习方法"><strong>学习方法</strong></h3>
+<p>学好这门课程需要注意以下四点：</p>
+<ol type="1">
+<li>练习、练习、练习。作为一门技术类课程，如同所有技术一样，只有通过大量练习，才能掌握，才能熟能生巧；</li>
+<li>不断反思。现在的编程技术已经很智能和便捷，几行代码就可以完成一个很复杂的数据分析任务，得到丰富的结果，很多数据分析相关的书籍也都提供了干净的数据和优化的分析案例，很容易复现这些分析过程和结果。但是只有理解这些代码背后的工作，才能将这些技术迁移到新的使用场景；因此，在学习过程中，要不断的追问，不仅知道怎么做的问题，更为重要的是知道为什么这样做。</li>
+<li>应用。需要尝试把学习的技术运用新的场景，复现书中案例的结果是第一步，是否能将新技术运用新的数据分析是检验是否掌握这门技术的判断标准。</li>
+<li>寻求帮助。现实中的数据常常是混乱的，编程技术也是比较复杂且是不断进步的，因此，学习中遇到这样那样的问题在所难免，寻求帮助是必不可少的，求助的对象可以是网络上资源，如自学教程、专业论坛，也可以是同伴和老师。</li>
+</ol>
+</section>
+<section id="考核方式" class="level3">
+<h3 class="anchored" data-anchor-id="考核方式"><strong>考核方式</strong></h3>
+<ol type="1">
+<li>出勤：10％，</li>
+<li>平时作业：50％，将有5次课后作业，涉及数据清理、表格制作、数据可视化、相关分析和回归分析。</li>
+<li>研究报告：40％，使用二手教育数据，利用所学技术，选定一个研究问题，撰写一份数据分析报告。</li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "已复制");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2022, 叶阳永</div>   
+      <div class="nav-footer-center">Seeking Truths through Facts</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/xiaomaohao">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="http://soe.ruc.edu.cn/info/1033/2519.htm">
+      <i class="bi bi-chat-dots" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

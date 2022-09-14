@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh" xml:lang="zh"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title> 叶阳永 - 量化研究论文写作指导</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title"><i class="fa-solid fa-leaf" aria-hidden="true"></i> 叶阳永</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html">首页</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../doc_raw/research/index.html">科学研究</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../../doc_raw/curriculum/index.html" aria-current="page">开设课程</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../doc_raw/blog/index.html">个人博客</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html">关于</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">量化研究论文写作指导</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../doc_raw/curriculum/index.html" class="sidebar-item-text sidebar-link">开设课程</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">教育法律实务</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../doc_raw/curriculum/practical_law/index.html" class="sidebar-item-text sidebar-link">课程大纲</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">教育政治学</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../doc_raw/curriculum/politics_of_education/index.html" class="sidebar-item-text sidebar-link">课程大纲</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">数据科学与教育</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../doc_raw/curriculum/data_science_and_education/index.html" class="sidebar-item-text sidebar-link">课程大纲</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">量化研究论文</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../doc_raw/curriculum/quantitative_writing/index.html" class="sidebar-item-text sidebar-link active">课程大纲</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#课程目标" id="toc-课程目标" class="nav-link active" data-scroll-target="#课程目标"><strong>课程目标</strong></a></li>
+  <li><a href="#课程内容" id="toc-课程内容" class="nav-link" data-scroll-target="#课程内容"><strong>课程内容</strong></a></li>
+  <li><a href="#授课形式" id="toc-授课形式" class="nav-link" data-scroll-target="#授课形式"><strong>授课形式</strong></a></li>
+  <li><a href="#考核方式" id="toc-考核方式" class="nav-link" data-scroll-target="#考核方式"><strong>考核方式</strong></a></li>
+  <li><a href="#课程材料" id="toc-课程材料" class="nav-link" data-scroll-target="#课程材料"><strong>课程材料</strong></a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">量化研究论文写作指导</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>本课程是一门量化论文写作实践指导课，学生将在教师指导下完成论文从选题到成稿的完整过程，课堂以学生习作为研讨对象，发现论文写作中的具体问题，在实践中改进。课程将依次围绕论文选题、文献综述、理论框架搭建、研究设计、数据分析和结果呈现等展开，以求课程结束，学生完成一篇论文的完整写作过程，详细内容请参看<a href="https://xiaomaohao.github.io/quantative_writing/">课程网站</a>。</p>
+<section id="课程目标" class="level3">
+<h3 class="anchored" data-anchor-id="课程目标"><strong>课程目标</strong></h3>
+<ol type="1">
+<li>掌握发现研究问题的方法；</li>
+<li>掌握文献检索、管理方法与文献综述写作方法；</li>
+<li>使学生掌握理论框架写作；</li>
+<li>使学生掌握研究设计部分的写作；</li>
+<li>掌握量化论文结果呈现方法；</li>
+</ol>
+</section>
+<section id="课程内容" class="level3">
+<h3 class="anchored" data-anchor-id="课程内容"><strong>课程内容</strong></h3>
+<ol type="1">
+<li>研究问题选择</li>
+</ol>
+<ul>
+<li>研究问题域的选择</li>
+<li>具体研究题目的选择</li>
+<li>问题提出部分的写作</li>
+</ul>
+<ol start="2" type="1">
+<li>文献综述写作</li>
+</ol>
+<ul>
+<li>中文文献检索要求与方法</li>
+<li>外文文献检索要求与方法</li>
+<li>文献管理与阅读</li>
+</ul>
+<ol start="3" type="1">
+<li>理论框架的选择与架构</li>
+</ol>
+<ul>
+<li>研究理论的选择</li>
+<li>研究理论的构建</li>
+</ul>
+<ol start="4" type="1">
+<li>研究设计</li>
+</ol>
+<ul>
+<li>模型选择</li>
+<li>变量选择</li>
+</ul>
+<ol start="5" type="1">
+<li>数据分析</li>
+</ol>
+<ul>
+<li>描述性分析</li>
+<li>相关性分析</li>
+<li>机制分析</li>
+<li>敏感性检验</li>
+<li>非预期结果的处理</li>
+</ul>
+<ol start="6" type="1">
+<li>研究结果呈现</li>
+</ol>
+<ul>
+<li>描述性结果</li>
+<li>统计分析结果</li>
+</ul>
+<ol start="7" type="1">
+<li>经典论文阅读</li>
+</ol>
+<ul>
+<li>定量论文阅读</li>
+<li>定量论文再现</li>
+</ul>
+</section>
+<section id="授课形式" class="level3">
+<h3 class="anchored" data-anchor-id="授课形式"><strong>授课形式</strong></h3>
+<p>课程以学生分享习作为主，教师讲授为辅。</p>
+</section>
+<section id="考核方式" class="level3">
+<h3 class="anchored" data-anchor-id="考核方式"><strong>考核方式</strong></h3>
+<ul>
+<li>出勤：10%</li>
+<li>课堂表现：30%</li>
+<li>期末论文：40%</li>
+</ul>
+</section>
+<section id="课程材料" class="level3">
+<h3 class="anchored" data-anchor-id="课程材料"><strong>课程材料</strong></h3>
+<section id="书籍" class="level4">
+<h4 class="anchored" data-anchor-id="书籍">书籍</h4>
+<ul>
+<li>Cunningham, S. (2021). <a href="https://mixtape.scunning.com/index.html">Causal inference: the mixtape</a>. Yale University Press.</li>
+</ul>
+</section>
+<section id="实证文章" class="level4">
+<h4 class="anchored" data-anchor-id="实证文章">实证文章</h4>
+<ul>
+<li><p>Angrist, J. D., &amp; Keueger, A. B. (1991). Does Compulsory School Attendance Affect Schooling and Earnings? <em>The Quarterly Journal of Economics</em>, <em>106</em>(4), 979–1014.</p></li>
+<li><p>Angrist, J. D., &amp; Lavy, V. (1999). Using Maimonides’ rule to estimate the effect of class size on scholastic achievement. <em>The Quarterly Journal of Economics</em>, <em>114</em>(2), 533–575.</p></li>
+<li><p>Black, S. E. (1999). Do better schools matter? Parental valuation of elementary education. <em>Quarterly Journal of Economics</em>, <em>114</em>(2), 577–599.</p></li>
+<li><p>Klaauw, W. Van der. (2002). Estimating the Effect of Financial Aid Offers on College Enrollment: A Regression–Discontinuity Approach. <em>International Economic Review</em>, <em>43</em>(4), 1249–1287.</p></li>
+</ul>
+</section>
+<section id="方法文章" class="level4">
+<h4 class="anchored" data-anchor-id="方法文章">方法文章</h4>
+<ul>
+<li>Cinelli, C., Forney, A., &amp; Pearl, J. (2022). A Crash Course in Good and Bad Controls. <em>SSRN Electronic Journal</em>, (March), 1–30.</li>
+<li>Elwert, F., &amp; Winship, C. (2014). Endogenous selection bias: The problem of conditioning on a collider variable. <em>Annual Review of Sociology</em>, <em>40</em>, 31–53.</li>
+</ul>
+</section>
+<section id="推荐阅读" class="level4">
+<h4 class="anchored" data-anchor-id="推荐阅读">推荐阅读</h4>
+<ul>
+<li>Angrist, J. D., &amp; Pischke, J. S. (2015). <em>Mastering metrics: The path from cause to effect</em>. Princeton and Oxford: Princeton University Press.</li>
+<li>Pearl, J. (2018). <em>The Book of Why: The New Science of Cause and Effect</em>. New York: Basic Books.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "已复制");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2022, 叶阳永</div>   
+      <div class="nav-footer-center">Seeking Truths through Facts</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/xiaomaohao">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="http://soe.ruc.edu.cn/info/1033/2519.htm">
+      <i class="bi bi-chat-dots" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
