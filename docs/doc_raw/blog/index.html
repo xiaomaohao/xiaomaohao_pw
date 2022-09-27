@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh" xml:lang="zh"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.154">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -67,9 +72,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -112,31 +117,39 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title"><i class="fa-solid fa-leaf" aria-hidden="true"></i> 叶阳永</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">首页</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">首页</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../doc_raw/research/index.html">科学研究</a>
+    <a class="nav-link" href="../../doc_raw/research/index.html">
+ <span class="menu-text">科学研究</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../doc_raw/curriculum/index.html">开设课程</a>
+    <a class="nav-link" href="../../doc_raw/curriculum/index.html">
+ <span class="menu-text">开设课程</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../doc_raw/blog/index.html" aria-current="page">个人博客</a>
+    <a class="nav-link active" href="../../doc_raw/blog/index.html" aria-current="page">
+ <span class="menu-text">个人博客</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../doc_raw/project/index.html">研究项目</a>
+    <a class="nav-link" href="../../doc_raw/project/index.html">
+ <span class="menu-text">研究项目</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">关于</a>
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">关于</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -157,6 +170,7 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
   <div class="quarto-title-meta">
 
       
+    
       
     </div>
     
@@ -179,7 +193,10 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="教师补充,县域中学" data-listing-date-sort="1662998400000" data-listing-file-modified-sort="1663120376021" data-listing-reading-time-sort="0.035">
+<div class="quarto-post image-right" data-index="0" data-categories="教师补充,县域中学" data-listing-date-sort="1662998400000" data-listing-file-modified-sort="1664280177638" data-listing-reading-time-sort="0.035">
+<div class="thumbnail">
+<p><a href="../../doc_raw/blog/posts/2022-09-13-county-high/index.html"> <img src="../../doc_raw/blog/images/fig1.png" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
 <div class="body">
 <a href="../../doc_raw/blog/posts/2022-09-13-county-high/index.html">
 <h3 class="no-anchor listing-title">
@@ -214,7 +231,10 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="评论,教师法" data-listing-date-sort="1662912000000" data-listing-file-modified-sort="1663119745815" data-listing-reading-time-sort="0.065">
+<div class="quarto-post image-right" data-index="1" data-categories="评论,教师法" data-listing-date-sort="1662912000000" data-listing-file-modified-sort="1664284188560" data-listing-reading-time-sort="0.065">
+<div class="thumbnail">
+<p><a href="../../doc_raw/blog/posts/2022-09-12-top-ten-issues/index.html"> <img src="../../files/plots/blue7.jpg" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
 <div class="body">
 <a href="../../doc_raw/blog/posts/2022-09-12-top-ten-issues/index.html">
 <h3 class="no-anchor listing-title">
@@ -249,7 +269,10 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="评论,教师工资" data-listing-date-sort="1662652800000" data-listing-file-modified-sort="1663119573936" data-listing-reading-time-sort="0.01">
+<div class="quarto-post image-right" data-index="2" data-categories="评论,教师工资" data-listing-date-sort="1662652800000" data-listing-file-modified-sort="1664282329826" data-listing-reading-time-sort="0.01">
+<div class="thumbnail">
+<p><a href="../../doc_raw/blog/posts/2022-09-09-teacher-salary1/index.html"> <img src="../../files/plots/blue.jpg" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
 <div class="body">
 <a href="../../doc_raw/blog/posts/2022-09-09-teacher-salary1/index.html">
 <h3 class="no-anchor listing-title">
@@ -284,7 +307,10 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="评论,职业教育" data-listing-date-sort="1662566400000" data-listing-file-modified-sort="1663120287349" data-listing-reading-time-sort="0.025">
+<div class="quarto-post image-right" data-index="3" data-categories="评论,职业教育" data-listing-date-sort="1662566400000" data-listing-file-modified-sort="1664280874966" data-listing-reading-time-sort="0.025">
+<div class="thumbnail">
+<p><a href="../../doc_raw/blog/posts/2022-09-08-vocation-mismatch/index.html"> <img src="../../files/plots/lake.jpg" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
 <div class="body">
 <a href="../../doc_raw/blog/posts/2022-09-08-vocation-mismatch/index.html">
 <h3 class="no-anchor listing-title">
@@ -319,7 +345,10 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="评论,教师" data-listing-date-sort="1656000000000" data-listing-file-modified-sort="1663120314052" data-listing-reading-time-sort="0.02">
+<div class="quarto-post image-right" data-index="4" data-categories="评论,教师" data-listing-date-sort="1656000000000" data-listing-file-modified-sort="1664283725542" data-listing-reading-time-sort="0.02">
+<div class="thumbnail">
+<p><a href="../../doc_raw/blog/posts/2022-06-24-first-blog/index.html"> <img src="../../files/plots/blue6.jpg" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
 <div class="body">
 <a href="../../doc_raw/blog/posts/2022-06-24-first-blog/index.html">
 <h3 class="no-anchor listing-title">
@@ -354,7 +383,10 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="评论,教师法" data-listing-date-sort="1653235200000" data-listing-file-modified-sort="1663120235627" data-listing-reading-time-sort="0.015">
+<div class="quarto-post image-right" data-index="5" data-categories="评论,教师法" data-listing-date-sort="1653235200000" data-listing-file-modified-sort="1664282518608" data-listing-reading-time-sort="0.015">
+<div class="thumbnail">
+<p><a href="../../doc_raw/blog/posts/2022-05-23-teacher-termination/index.html"> <img src="../../files/plots/blue4.jpg" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
 <div class="body">
 <a href="../../doc_raw/blog/posts/2022-05-23-teacher-termination/index.html">
 <h3 class="no-anchor listing-title">
@@ -389,7 +421,10 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="教师,案例" data-listing-date-sort="1644422400000" data-listing-file-modified-sort="1663119980856" data-listing-reading-time-sort="0.03">
+<div class="quarto-post image-right" data-index="6" data-categories="教师,案例" data-listing-date-sort="1644422400000" data-listing-file-modified-sort="1664282457230" data-listing-reading-time-sort="0.03">
+<div class="thumbnail">
+<p><a href="../../doc_raw/blog/posts/2022-02-10-teacher-rank/index.html"> <img src="../../files/plots/blue3.jpg" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
 <div class="body">
 <a href="../../doc_raw/blog/posts/2022-02-10-teacher-rank/index.html">
 <h3 class="no-anchor listing-title">
@@ -470,7 +505,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "已复制");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "已复制");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -498,31 +550,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

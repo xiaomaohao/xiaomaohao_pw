@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh" xml:lang="zh"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.154">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -53,7 +58,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -66,7 +71,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -138,31 +143,39 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title"><i class="fa-solid fa-leaf" aria-hidden="true"></i> 叶阳永</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">首页</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">首页</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../doc_raw/research/index.html">科学研究</a>
+    <a class="nav-link" href="../../doc_raw/research/index.html">
+ <span class="menu-text">科学研究</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../doc_raw/curriculum/index.html">开设课程</a>
+    <a class="nav-link" href="../../doc_raw/curriculum/index.html">
+ <span class="menu-text">开设课程</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../doc_raw/blog/index.html">个人博客</a>
+    <a class="nav-link" href="../../doc_raw/blog/index.html">
+ <span class="menu-text">个人博客</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../doc_raw/project/index.html" aria-current="page">研究项目</a>
+    <a class="nav-link active" href="../../doc_raw/project/index.html" aria-current="page">
+ <span class="menu-text">研究项目</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">关于</a>
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">关于</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -209,13 +222,12 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">该页面内容</h2>
    
   <ul>
   <li><a href="#教师人事关系的调整方式与教师的具体权利义务设定没有必然联系" id="toc-教师人事关系的调整方式与教师的具体权利义务设定没有必然联系" class="nav-link active" data-scroll-target="#教师人事关系的调整方式与教师的具体权利义务设定没有必然联系">教师人事关系的调整方式与教师的具体权利义务设定没有必然联系</a></li>
   <li><a href="#教师人事关系的调整方式与教师权利保障并不存在必然联系" id="toc-教师人事关系的调整方式与教师权利保障并不存在必然联系" class="nav-link" data-scroll-target="#教师人事关系的调整方式与教师权利保障并不存在必然联系">教师人事关系的调整方式与教师权利保障并不存在必然联系</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -232,6 +244,7 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -246,7 +259,7 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 <section id="教师人事关系的调整方式与教师权利保障并不存在必然联系" class="level3">
 <h3 class="anchored" data-anchor-id="教师人事关系的调整方式与教师权利保障并不存在必然联系">教师人事关系的调整方式与教师权利保障并不存在必然联系</h3>
 <p>为了评估不同调整方式的选择与教师利益保障之间的关系，本文从教师工资收入、工作时间和职业稳定性三个方面，来分析中小学教师人事关系调整方式与教师权利保障之间的关系。使用本文对部分国家的教师人事关系调整方式的统计，再使用经济合作与发展组织（OECD） 统计的28个国家中学教师平均工资信息和2018年的教师教学国际调查(TALIS)数据中44个国家或地区中学教师工作时间和人事关系期限的数据，来分析教师人事关系调整方式与教师工资待遇、工作时间和职业稳定性的关系。</p>
-<p>首先，使用OECD统计的28个国家的教师相对平均工资信息，该指标是以国家或地区的全职公办中学教师的平均工资除以该国或地区高等教育毕业生的平均工资计算而得，该指数一定程度上可以反映各国中学教师在本国的相对收入水平。图1反映的是教师人事关系调整方式与教师相对平均工资的关系图，由图可知，各国教师人事关系调整方式与教师收入水平并不存在相关性。中小学教师人事关系以公法调整为主的国家，其教师收入水平并不一定高，以劳动法为主调整的国家的教师收入水平也并不一定低。比如，同样是公法调整为主的国家，德国和葡萄牙的教师收入水平比较高，而挪威和匈牙利的教师收入水平则较低。同样是以劳动法调整为主的国家，哥斯达黎加和立陶宛的教师收入水平比较高，而捷克和美国的教师收入水平则较低。</p>
+<p>首先，使用OECD统计的28个国家的教师相对平均工资信息，该指标是以国家或地区的全职公办中学教师的平均工资除以该国或地区高等教育毕业生的平均工资计算而得，该指数一定程度上可以反映各国中学教师在本国的相对收入水平。图1 @fig-legal1 反映的是教师人事关系调整方式与教师相对平均工资的关系图，由图可知，各国教师人事关系调整方式与教师收入水平并不存在相关性。中小学教师人事关系以公法调整为主的国家，其教师收入水平并不一定高，以劳动法为主调整的国家的教师收入水平也并不一定低。比如，同样是公法调整为主的国家，德国和葡萄牙的教师收入水平比较高，而挪威和匈牙利的教师收入水平则较低。同样是以劳动法调整为主的国家，哥斯达黎加和立陶宛的教师收入水平比较高，而捷克和美国的教师收入水平则较低。</p>
 <div class="cell">
 <details>
 <summary>代码</summary>
@@ -297,7 +310,7 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 <div id="fig-legal1" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="teacher_status_files/figure-html/fig-legal1-1.png" class="img-fluid figure-img" width="480"></p>
-<p></p><figcaption class="figure-caption">图 1: 部分国家或地区中学教师相对工资收入比较图</figcaption><p></p>
+<p></p><figcaption class="figure-caption">图&nbsp;1: 部分国家或地区中学教师相对工资收入比较图</figcaption><p></p>
 </figure>
 </div>
 </div>
@@ -388,24 +401,21 @@ gtag('config', 'G-2ND3SYYW0Q', { 'anonymize_ip': true});
 <div id="fig-legal3" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="teacher_status_files/figure-html/fig-legal3-1.png" class="img-fluid figure-img" width="528"></p>
-<p></p><figcaption class="figure-caption">图 2: 部分国家或地区中学教师工作时间和无终止期限关系占比图</figcaption><p></p>
+<p></p><figcaption class="figure-caption">图&nbsp;2: 部分国家或地区中学教师工作时间和无终止期限关系占比图</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
-</section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
 
 
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">脚注</h2>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">脚注</h2>
 
 <ol>
-<li id="fn1" role="doc-endnote"><p>这些国家或地区包括经济合作与发展组织所有成员国、欧盟所有成员国和其它可获得其教师人事关系调整方式信息的国家，人事关系调整方式的确定一方面借助于欧盟委员会编撰《The Teaching Profession in Europe》和《Teaching Careers in Europe》中的分类信息，一方面通过查询各国教师人事关系适用的法律及研究文献判定。68个国家或地区除下文图2中列举的44个以外，还包括冰岛、以色列、马来西亚、荷兰、波兰、罗马尼亚、塞尔维亚、新加坡、比利时法语区、卢森堡、德国、希腊、苏格兰、爱尔兰、瑞士、列支敦士登、黑山、北马其顿、波黑、阿尔巴尼亚、哥斯达黎加、乌克兰、白俄罗斯、摩尔多瓦。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>以下陈述的部分国家具体教师人事制度的信息主要来自于OECD 编撰的报告《The Teaching Profession in Europe》和《Teaching Careers in Europe》。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>这些国家或地区包括经济合作与发展组织所有成员国、欧盟所有成员国和其它可获得其教师人事关系调整方式信息的国家，人事关系调整方式的确定一方面借助于欧盟委员会编撰《The Teaching Profession in Europe》和《Teaching Careers in Europe》中的分类信息，一方面通过查询各国教师人事关系适用的法律及研究文献判定。68个国家或地区除下文图2中列举的44个以外，还包括冰岛、以色列、马来西亚、荷兰、波兰、罗马尼亚、塞尔维亚、新加坡、比利时法语区、卢森堡、德国、希腊、苏格兰、爱尔兰、瑞士、列支敦士登、黑山、北马其顿、波黑、阿尔巴尼亚、哥斯达黎加、乌克兰、白俄罗斯、摩尔多瓦。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>以下陈述的部分国家具体教师人事制度的信息主要来自于OECD 编撰的报告《The Teaching Profession in Europe》和《Teaching Careers in Europe》。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -449,7 +459,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "已复制");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "已复制");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -477,31 +504,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
